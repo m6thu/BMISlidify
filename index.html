@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Course Project: Shiny Application and Reproducible Pitch</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Course Project: Shiny Application and Reproducible Pitch">
+  <meta name="author" content="Mathupanee Oonsivilai">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Course Project: Shiny Application and Reproducible Pitch</h1>
+    <h2>Body Mass Index (BMI)</h2>
+    <p>Mathupanee Oonsivilai<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>What is BMI?</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>BMI, which was first proposed by the Belgian statisfactorytalktician Adolphe Quételet in 1835.  Its popularity derives from its simplicity and the fact that weight and height are easily measured.</p></li>
+<li><p>The BMI is a rough attempt to quantify the amount of tissue mass (muscle, fat, and bone) in an individual, and then categorize that person as underweight, normal weight, overweight, or obese based on that value.</p></li>
+<li><p>There is some debate about where on the BMI scale the dividing lines between categories should be placed[1] and lately, more debate on it&#39;s overall usefulness.</p></li>
+<li><p>Commonly accepted BMI ranges are underweight: under 18.5, normal weight: 18.5 to 25, overweight: 25 to 30, obese: over 30.</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>How to calculate</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Is calculated by the formula</p>
+
+<p>\[BMI = (\frac{Weight(kgs)}{Height(m)^2})\]</p>
+
+<h4>Example</h4>
+
+<p>A person 56 kgs and 170 cms would have</p>
+
+<pre><code class="r">weight &lt;- 56
+height &lt;- 1.7
+BMI &lt;- (56/1.7^2)
+BMI
+</code></pre>
+
+<pre><code>## [1] 19.37716
+</code></pre>
+
+<p>The BMI may also be determined using a table or chart which displays BMI as a function of mass and height using contour lines or colors for different BMI categories, and may use two different units of measurement.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Body Mass Index Table</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="bmitable.jpg" alt=""></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Controversy</h2>
+  </hgroup>
+  <article data-timings="">
+    <h4>Cons</h4>
+
+<ul>
+<li><p>Like IQ, the single number for BMI does not tell us all we need to know.</p></li>
+<li><p>BMI does not distinguish between fat mass and lean mass (muscle, water, bone, etc).</p></li>
+<li><p>Someone who is physically fit can have a high BMI due to having greater than average muscle mass misclassifying some people as obese (BMI of 30 or greater) who are not obese</p></li>
+<li><p>Using this criterion actually misses more than half of people with excess body fat.</p></li>
+</ul>
+
+<h4>Pros</h4>
+
+<ul>
+<li>In a study assessing attractiveness, females judge men and women with higher BMI as less attractive with BMI being the sole indicator of attractiveness [2]</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>References</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Dr Malcolm Kendrick (April 12, 2015). &quot;Why being &#39;overweight&#39; means you live longer: The way scientists twist the facts&quot;</li>
+<li> Dr Sonia Oreffice (April 7, 2016) &quot;Research into the correlation between beauty and body size shows that women are the harshest judges&quot;</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='What is BMI?'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='How to calculate'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Body Mass Index Table'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Controversy'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='References'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
